@@ -1,0 +1,110 @@
+  li {
+    display: inline;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C5D5E4;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #8896AB;
+  }
+
+
+  body {
+    background-color: #C5D5E4;
+  }
+
+  hr {
+    width: 20%;
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: white;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family:'Merriweather', serif;
+}
+
+h1 {
+    
+    font-size: 5rem;
+    margin: 50px; auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: whitesmoke;
+    line-height: 2;
+}
+ 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+    font-weight: normal;
+
+}
+
+
+
+
+.heading { 
+  background-color: #C5D5E4;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 20px;
+  width: 10%;
+  height: auto;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: -20px;
+  width: 10%;
+  height: auto;
+   
+}
+ 
+.flight {
+  max-width: 10%;
+  height: auto;
+}
+
+.landscape {
+  max-width: 10%;
+  height: auto;
+}
+
+.passport {
+  max-width: 10%;
+  height: auto;
+}
