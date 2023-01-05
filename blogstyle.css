@@ -1,0 +1,145 @@
+body {
+    color:antiquewhite;
+}
+
+@font-face {
+    font-family: "Trickster";
+    src: local("Trickster"),
+      url("ITC Stone Sans Std Bold.otf") format("opentype") tech(color-COLRv1), url("ITC Stone Sans Std Bold.otf")
+        format("opentype"), url("ITC Stone Sans Std Bold.otf") format("woff");
+  }
+
+  a:visited {
+    color: white;
+  }
+  
+
+.heading{
+    text-align: center;
+    font-size: 25px;
+}
+
+.paragraph{
+    text-indent: 10%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.addblog{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.button{
+    width: 90px;
+    height: 40px;
+    border-radius: 10%;
+    font-size: medium;
+    font-weight: bolder;
+    margin-bottom: 0.5cm;
+    background-color: #4F5F7F;
+    color: antiquewhite;
+    border: solid;
+}
+
+#myFile{
+    width: 250px;
+    height: 50px;
+    border-radius: 10%;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+#container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.left {
+    background-color: #4F5E7E;
+    width: 10vw;
+    border: solid;
+    border-style: dashed;
+    border-radius: 0.2cm;
+    margin-right: 0.2cm;
+}
+
+.second-left {
+    background-color: #4F5E7E;
+    width: 20vw;
+    border: solid;
+    border-style: dashed;
+    border-radius: 0.2cm;
+    margin-right: 0.2cm;
+}
+
+.second-right {
+    background-color: #4F5E7E;
+    width: 40vw;
+    border: ridge;
+    border-style: dashed;
+    border-radius: 0.2cm;
+    margin-right: 0.2cm;
+}
+
+.right {
+    background-color: #4F5E7E;
+    width: 30vw;
+    border: ridge;
+    border-style: dashed;
+    border-radius: 0.2cm;
+}
+
+.links {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+}
+
+#index {
+    margin-bottom: 3.5cm;
+}
+
+#About {
+    margin-bottom: 3.5cm;
+}
+
+#Guide {
+    margin-bottom: 3.5cm;
+}
+
+#Blog {
+    margin-bottom: 3.5cm;
+}
+
+.headline {
+    font-size: 25px;
+    text-align: center;
+}
+
+#subheadline {
+    font-size: 22px;
+    text-align: center;
+}
+
+.blog-form{
+    font-size: 22px;
+    text-align: center;
+}
+
+#name {
+    margin-bottom: 0.5cm;
+}
+
+#email {
+    margin-bottom: 0.5cm;
+}
+
+#postHeading {
+    margin-bottom: 0.5cm;
+}
+
+#name {
+    margin-bottom: 0.5cm;
+}
