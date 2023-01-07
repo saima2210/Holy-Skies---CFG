@@ -132,10 +132,7 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
-  .packages .box-container .box .content h3 i{
-    color:var(--green);
-  }
-  
+
   .packages .box-container .box .content p{
     font-size:1.6rem;
     font-family: 'Merriweather', serif;
