@@ -140,6 +140,11 @@ p {
     padding:1rem 0;
   }
   
+ .box:hover {
+    top:0;
+  background-color: #8896AB;
+  }
+  
  
   section{
     padding:5rem 10%;
