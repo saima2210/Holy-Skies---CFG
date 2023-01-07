@@ -1,0 +1,180 @@
+.heading {
+  padding: 5px;
+  margin-top: 100px;
+  margin-bottom: 100px
+}
+
+li {
+    display: inline; 
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4F5E7E;
+    font-family: 'Montserrat', sans-serif; 
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;   
+  }
+  
+
+  li a:hover {
+    background-color: #8896AB;
+  }
+
+  .header-links {
+    font-size: 2rem;
+  }
+
+  .holy-skies {
+    color: antiquewhite;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block
+    padding: 15px;
+    margin: 14px 16px;
+    font-size: 3rem;  
+  } 
+
+  .heading { 
+    background-color: #4F5E7E;
+    position: relative;
+    padding-top: 80px;
+    text-align: center;
+    font-weight: bolder;
+    padding:2.5rem 0
+    }
+    
+  
+  hr {
+    border: 1px solid white;
+
+  }
+
+body {
+    background-color: #4F5E7E;
+    margin: 0;
+    text-align: center;
+    font-family:'Merriweather', serif;
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 7rem;
+    margin: 50px; auto 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder
+  }
+ 
+p, h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    color: white;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+  .packages {
+   padding:1rem 0;
+  }
+
+
+  .packages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5rem;
+  }
+  
+  .packages .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+  
+  .packages .box-container .box img{
+    height: 40rem;
+    width:85%;
+    object-fit: cover;
+  }
+  
+  .packages .box-container .box .content{
+    padding:2rem;
+  }
+  
+  .packages .box-container .box .content h3{
+    font-size:2rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  .packages .box-container .box .content h3 i{
+    color:var(--green);
+  }
+  
+  .packages .box-container .box .content p{
+    font-size:1.6rem;
+    font-family: 'Merriweather', serif;
+    color: antiquewhite;
+    padding:1rem 0;
+  }
+  
+ 
+  section{
+    padding:5rem 10%;
+  }
+
+
+  html{
+    font-size: 60%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+    
+  }
+  .copyright {
+    color: white;
+    text-align: center;
+    margin: 40px;
+    width: auto; 
+  }
+
+  
+.fa-brands {
+  color: white;
+  float: right;
+  font-size: medium;
+  display: inline-block;
+  color: white;
+  text-align: :right;
+  padding: 30px 16px;
+  }
+
+ a:hover {
+ background-color: #8896AB;
+
+}
