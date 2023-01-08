@@ -67,7 +67,6 @@ body {
     background-color: #4F5E7E;
     margin: 0;
     text-align: center;
-    font-family:'Merriweather', serif;
 }
 
 h1 {
@@ -96,17 +95,15 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
   .packages {
-   padding:1rem 0;
+   padding:2rem 0;
   }
 
 
   .packages .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap:5rem;
+    gap:3rem;
   }
   
   .packages .box-container .box{
@@ -118,7 +115,7 @@ p {
   
   .packages .box-container .box img{
     height: 40rem;
-    width:85%;
+    width:80%;
     object-fit: cover;
   }
   
@@ -132,7 +129,7 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
-
+  
   .packages .box-container .box .content p{
     font-size:1.6rem;
     font-family: 'Merriweather', serif;
@@ -140,8 +137,8 @@ p {
     padding:1rem 0;
   }
   
- .box:hover {
-    top:0;
+  .box:hover {
+  top:0;
   background-color: #8896AB;
   }
   
@@ -155,9 +152,9 @@ p {
     font-size: 60%;
     overflow-x: hidden;
     scroll-padding-top: 6rem;
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth; 
   }
+
   .copyright {
     color: white;
     text-align: center;
@@ -174,15 +171,16 @@ p {
   color: white;
   text-align: :right;
   padding: 30px 16px;
-  }
+  text-decoration: none;
+}
 
- a:hover {
- background-color: antiquewhite;
-
+a:hover {
+  background-color: antiquewhite;
 }
 
 .btn{
   display: inline-block;
+  border: 0;
   margin-top: 1rem;
   color:white;
   padding:.8rem 3rem;
@@ -190,5 +188,8 @@ p {
   font-size: 1.5rem;
   background-color: #8896AB;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
+  font-weight: 900; 
 }
+
+
+
