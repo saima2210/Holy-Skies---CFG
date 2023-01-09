@@ -1,0 +1,136 @@
+.heading {
+    padding: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px
+  }
+  
+  li {
+      display: inline; 
+    }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #4F5E7E;
+      font-family: 'Montserrat', sans-serif; 
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;   
+    }
+    
+  
+    li a:hover {
+      background-color: #8896AB;
+    }
+  
+    .header-links {
+      font-size: 2rem;
+    }
+
+
+  .heading { 
+    background-color: #4F5E7E;
+    position: relative;
+    padding-top: 80px;
+    text-align: center;
+    font-weight: bolder;
+    padding:2.5rem 0
+    }
+
+    hr {
+      border: 1px solid white;
+    }
+
+    body {
+        background-color: #4F5E7E;
+        margin: 0;
+        text-align: center;
+    }
+    
+    h1 {
+        color: antiquewhite;
+        font-size: 7rem;
+        margin: 50px; auto 0 auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight:bolder
+      }
+ 
+      p {
+        font-family: 'Roboto', sans-serif;
+        color: antiquewhite;
+      
+      }
+
+     .flying {
+      max-width: 10%;
+      height: auto;
+     }
+
+     .passport {
+      max-width: 10%;
+      height: auto;
+     }
+
+     .earth {
+      max-width: 10%;
+      height: auto;
+     }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    color: white;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.fa-brands {
+  color: white;
+  float: right;
+  font-size: medium;
+  display: inline-block;
+  color: white;
+  text-align: :right;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: antiquewhite;
+}
+
+  
+
+  .copyright {
+    color: white;
+    text-align: center;
+    margin: 40px;
+    width: auto; 
+  }
+
+  .copyright {
+    font-size: 0.5rem;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  .tile {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .title .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
