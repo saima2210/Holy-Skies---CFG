@@ -1,0 +1,150 @@
+/* 
+    FONTS
+    1. Raleway
+    2. Montserrat
+    3. Merriweather
+*/
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* Reset Page margin and padding */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Core Elements */
+body {
+    padding-top: 60px;
+}
+
+hr {
+    width: 50%;
+    margin-left: 25%;
+    border-color: #4f5e7e;
+    border-width: 0 0 5px 0;
+    border-style: none none dotted none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+/* Nav bar */
+.navbar, .container-fluid {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4F5E7E;
+}
+
+.navbar, .nav-link{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.nav-link:hover{
+    background-color: #8896AB;
+}
+
+.copyright p {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Heading and title */
+.heading {
+    height: 25rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #4f5e7e;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+}
+
+.topcloud{
+    position: absolute;
+    right: 300px;
+    top: 150px;
+}
+
+.bottomcloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+/* Latest Blog Post */
+.bloghead {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+.blogpara {
+    font-family: "Merriweather", sans-serif;
+}
+
+.latestpost {
+    padding: 20px;
+}
+
+.card-footer {
+    font-size: 10px;
+}
+
+/* Photography */
+.carousel-inner {
+    margin-left: 25%;
+}
+
+.bg-color {
+    background-color: #4F5E7E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+/* Media Queries */
+@media only screen and (max-device-width : 480px) {
+    body {
+        padding-top: 0;
+    }
+
+    .heading {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-device-width : 768px) {
+    body {
+        padding-top: 0;
+    }
+
+    .heading {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+}
