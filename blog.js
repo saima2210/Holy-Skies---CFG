@@ -1,21 +1,22 @@
-let bttn = document.getElementById("btn1")
-let username = document.getElementById("nameH")
-let currentUsername = document.getElementById("output1")
+function trigger() {
 
-function username() {
-    currentUsername.innerHTML = nameH.value
-}
+    document.getElementById("hover").addEventListener("mouseover", popup)
 
-bttn.addEventListener("click", username)
+    function popup()
+    {
+        alert("Write for Us!")
+    }
+} 
 
 
-
-let btn = document.getElementById("btn4")
-let text = document.getElementById("textBox")
-let out1 = document.getElementById("output")
+const btn = document.getElementById("btn4")
+const text = document.getElementById("textBox")
+const out1 = document.getElementById("output")
 
 function post() {
     out1.innerHTML = text.value
 }
 
-btn.addEventListener("click", post)
+console.log(out1);
+
+btn.addEventListener("click", post())
