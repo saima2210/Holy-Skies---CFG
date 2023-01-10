@@ -5,11 +5,9 @@
   margin-bottom: 100px
 }
 
-
 li {
     display: inline; 
   }
-
 
   ul {
     list-style-type: none;
@@ -20,17 +18,15 @@ li {
     font-family: 'Montserrat', sans-serif; 
   }
   
-
   li {
     float: left;
   }
   
-
   li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;   
   }
   
@@ -43,7 +39,6 @@ li {
     font-size: 2rem;
   }
 
-
   .holy-skies {
     color: antiquewhite;
     font-weight: bold;
@@ -54,7 +49,6 @@ li {
     font-size: 3rem;  
   } 
 
-
   .heading { 
     background-color: #4F5E7E;
     position: relative;
@@ -64,19 +58,36 @@ li {
     padding:2.5rem 0
     }
     
+  .sun {
+  position: absolute;
+  left: -1px;
+  padding: 40px;
+  top: -140px;
+  width: 9%;
+  height: auto;
+
+}
+
+
+.tree {
+position: absolute;
+width: 15%;
+height: auto;
+right: 25px;
+top: -10px;
+
+}
   
   hr {
     border: 1px solid white;
 
   }
 
-
 body {
     background-color: #4F5E7E;
     margin: 0;
     text-align: center;
 }
-
 
 h1 {
     color: antiquewhite;
@@ -86,7 +97,6 @@ h1 {
     font-weight:bolder
   }
  
-
 p, h1 {
   margin: 0px;
   padding: 0px;
@@ -100,7 +110,6 @@ h2 {
     font-weight: normal;
     font-weight: bold;
 }
-
 
 p {
   font-family: 'Roboto', sans-serif;
@@ -125,19 +134,16 @@ p {
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
   }
   
-
   .packages .box-container .box img{
     height: 40rem;
     width:80%;
     object-fit: cover;
   }
   
-
   .packages .box-container .box .content{
     padding:2rem;
   }
   
-
   .packages .box-container .box .content h3{
     font-size:2rem;
     color: white;
@@ -193,7 +199,6 @@ a:hover {
   background-color: antiquewhite;
 }
 
-
 .btn{
   display: inline-block;
   border: 0;
@@ -207,7 +212,6 @@ a:hover {
   font-weight: 900; 
 }
 
-
 .form-popup {
   display: none;
   position: fixed;
@@ -218,7 +222,6 @@ a:hover {
   background-color: #4F5E7E;
 }
 
-
 .form-container {
   max-width: 300px;
   padding: 150px;
@@ -226,12 +229,12 @@ a:hover {
   background-color: #4F5E7E
 }
 
-
 p .form-popup .form-container  {
   text-align: right;
   font-family: 'Roboto', sans-serif;
-}
 
+
+}
 
 .btn-cancel {
   display: inline-block;
